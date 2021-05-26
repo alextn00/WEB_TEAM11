@@ -1812,7 +1812,8 @@ ol {
 }
 
 .login__register {
-	padding-left: 30px;
+	position: relative;
+	padding-left: 50px;
 }
 
 .login__register h3 {
@@ -1827,104 +1828,139 @@ ol {
 	padding: 12px 42px;
 }
 
-.login__social {
-	padding-top: 52px;
-}
-
-.login__social__links {
-	text-align: center;
-}
-
-.login__social__links span {
-	color: #ffffff;
-	display: block;
-	font-size: 13px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-}
-
-.login__social__links ul li {
-	list-style: none;
-	margin-bottom: 15px;
-}
-
-.login__social__links ul li:last-child {
-	margin-bottom: 0;
-}
-
-.login__social__links ul li a {
-	color: #ffffff;
-	display: block;
-	font-size: 13px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	width: 460px;
-	padding: 14px 0;
+.login__register form .input__item {
 	position: relative;
-	margin: 0 auto;
+	width: 370px;
+	margin-bottom: 20px;
 }
 
-.login__social__links ul li a.facebook {
-	background: #4267b2;
+.login__register form .input__item:before {
+	position: absolute;
+	left: 50px;
+	top: 10px;
+	height: 30px;
+	width: 1px;
+	background: #b7b7b7;
+	content: "";
 }
 
-.login__social__links ul li a.google {
-	background: #ff4343;
+.login__register form .input__item input {
+	height: 50px;
+	width: 100%;
+	font-size: 15px;
+	color: #b7b7b7;
+	background: #ffffff;
+	border: none;
+	padding-left: 76px;
 }
 
-.login__social__links ul li a.twitter {
-	background: #1da1f2;
+.login__register form .input__item input::-webkit-input-placeholder {
+	color: #b7b7b7;
 }
 
-.login__social__links ul li a i {
+.login__register form .input__item input::-moz-placeholder {
+	color: #b7b7b7;
+}
+
+.login__register form .input__item input:-ms-input-placeholder {
+	color: #b7b7b7;
+}
+
+.login__register form .input__item input::-ms-input-placeholder {
+	color: #b7b7b7;
+}
+
+.login__register form .input__item input::placeholder {
+	color: #b7b7b7;
+}
+
+.login__register form .input__item span {
+	color: #b7b7b7;
 	font-size: 20px;
 	position: absolute;
-	left: 32px;
-	top: 14px;
+	left: 15px;
+	top: 13px;
 }
 
-/*---------------------
-  Sign Up
------------------------*/
-
-.signup {
-	padding-top: 130px;
-	padding-bottom: 150px;
+.login__register form button {
+	border-radius: 0;
+	margin-top: 10px;
 }
 
-.signup .login__form:after {
-	height: 450px;
+.profile-photo {
+	width:160px;
+	height:160px;
+	margin:0 auto 15px;
+	position:relative
 }
 
-.signup .login__form h5 {
-	font-size: 15px;
+.profile-photo :after {
+	position: absolute;
+	right: -80px;
+	height: 330px;
+	width: 1px;
+	background: rgba(255, 255, 255, 0.2);
+	content: "";
+}
+
+.profile-photo .edit-avatar{
+	position:absolute;
+	right:-15px;
+	top:0;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	text-align:center;
+	-webkit-box-shadow:0 2px 4px rgba(0,0,0,.4);
+	box-shadow:0 2px 4px rgba(0,0,0,.4)
+}
+
+.contact-directory-box .contact-avatar span img, .profile-photo .avatar-photo, .profile-photo .edit-avatar{
+	border-radius:100%
+}
+
+.profile-info {
+	position: relative;
+	padding-left: 100px;
+}
+
+.profile-info h5{
+	margin-left: 5px;
+}
+
+.profile-info ul li{
+	margin-bottom:15px;
+	font-size:14px;
 	color: #ffffff;
-	margin-top: 36px;
+	font-weight:500;
+	word-wrap:break-word
 }
 
-.signup .login__form h5 a {
-	color: #e53637;
-	font-weight: 700;
+.profile-info ul li span{
+	display:block;
+	font-size:14px;
+	color:#ffffff;
+	font-weight:500;
+	padding-bottom:5px
 }
 
-.signup .login__social__links {
-	text-align: left;
-	padding-left: 40px;
+.profile-info ul li:last-child{
+	margin-bottom:0
 }
 
-.signup .login__social__links h3 {
-	color: #ffffff;
-	font-weight: 700;
-	font-family: "Oswald", sans-serif;
-	margin-bottom: 30px;
+.profile-skills {
+	position: relative;
+	padding-left: 50px;
 }
 
-.signup .login__social__links ul li a {
-	margin: 0;
+.profile-skills h5{
+	color: white;
 	text-align: center;
+}
+
+.profile-skills h6{
+	color: white;
 }
 
 /*---------------------
