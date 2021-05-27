@@ -923,6 +923,7 @@ ol {
 
 .product__pagination {
 	padding-top: 15px;
+	text-align: center;
 }
 
 .product__pagination a {
@@ -952,6 +953,19 @@ ol {
 .product__pagination a i {
 	color: #b7b7b7;
 	font-size: 15px;
+}
+
+.rank_table {
+	background-color: none; 
+	color: white; 
+	border: none; 
+	width: 100%;
+}
+.rank_table th {
+	width: 50%;
+}
+.rank_table td {
+	width: 20%;
 }
 
 /*---------------------
@@ -1975,6 +1989,7 @@ ol {
 .profile-skills h6{
 	color: white;
 }
+
 
 /*---------------------
   Footer
