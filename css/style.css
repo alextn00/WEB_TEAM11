@@ -193,6 +193,19 @@ ol {
 	padding: 12px 30px;
 }
 
+.dark_mode_btn {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: none;
+	color: #ffffff;
+	letter-spacing: 2px;
+	margin-right: 25px;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+
 /* Preloder */
 
 #preloder {
