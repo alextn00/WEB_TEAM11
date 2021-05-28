@@ -108,6 +108,10 @@ ol {
 	margin: 0;
 }
 
+label {
+	color: #fff;
+}
+
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -664,6 +668,12 @@ ol {
 	margin-bottom: 30px;
 }
 
+.product__item__pic__sm {
+	height: 210px;
+	position: relative;
+	border-radius: 5px;
+}
+
 .product__item__pic {
 	height: 325px;
 	position: relative;
@@ -707,7 +717,7 @@ ol {
 }
 
 .product__item__text {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .product__item__text ul {
@@ -958,14 +968,14 @@ ol {
 .rank_table {
 	background-color: none; 
 	color: white; 
-	border: none; 
-	width: 100%;
+	border: none;
+	width: 95%;
+	margin-top: 5px;
 }
-.rank_table th {
-	width: 50%;
-}
+
 .rank_table td {
-	width: 20%;
+	width: 60%;
+	text-align: end;
 }
 
 /*---------------------
