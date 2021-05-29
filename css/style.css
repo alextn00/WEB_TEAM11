@@ -210,6 +210,10 @@ label {
 	border-radius: 2px;
 }
 
+.write-btn, .save-btn {
+	float: right;
+}
+
 /* Preloder */
 
 #preloder {
@@ -1747,6 +1751,24 @@ label {
 
 .blog__details__form form textarea::placeholder {
 	color: #a6a6a6;
+}
+
+
+.newpost_table {
+	width: 100%;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.newpost_table tr {
+	border-top: 1px solid #fff;
+}
+
+.newpost_table td div {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 /*---------------------
