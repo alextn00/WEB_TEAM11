@@ -663,8 +663,11 @@ label {
 }
 
 .categories__menu ul li.active a {
-	background: #e53637;
-	color: #ffffff;
+	color: #e53637;
+}
+
+.categories__menu ul li.active:hover a {
+	color: #e53637;
 }
 
 .categories__menu ul li:hover a {
