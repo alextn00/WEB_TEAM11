@@ -642,6 +642,50 @@ label {
   Product
 -----------------------*/
 
+.categories .container {
+
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.categories__nav {
+	margin-top: 50px;
+}
+
+.categories__menu {
+	text-align: center;
+}
+
+.categories__menu ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin-right: 16px;
+}
+
+.categories__menu ul li.active a {
+	background: #e53637;
+	color: #ffffff;
+}
+
+.categories__menu ul li:hover a {
+	color: #ffffff;
+}
+
+.categories__menu ul li:last-child {
+	margin-right: 0;
+}
+
+.categories__menu ul li a {
+	font-size: 15px;
+	color: #b7b7b7;
+	display: block;
+	font-weight: 700;
+	-webkit-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+	padding: 10px;
+}
+
 .product {
 	padding-bottom: 60px;
 	padding-top: 80px;
