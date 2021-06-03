@@ -892,11 +892,9 @@ label {
 .product__sidebar__comment__item {
 	margin-bottom: 20px;
 	overflow: hidden;
-}
-
-.product__sidebar__comment__item__pic {
-	float: left;
-	margin-right: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 5px;
+	padding: 10px;
 }
 
 .product__sidebar__comment__item__text {
@@ -924,14 +922,20 @@ label {
 
 .product__sidebar__comment__item__text h5 a {
 	color: #ffffff;
-	font-weight: 700;
-	line-height: 26px;
+	font-weight: 600;
+	line-height: 22px;
 }
 
-.product__sidebar__comment__item__text span {
-	display: block;
+.product__sidebar__comment__item__text .viewes {
 	font-size: 13px;
 	color: #b7b7b7;
+	float: right;
+}
+
+.product__sidebar__comment__item__text .post_writer {
+	font-size: 15px;
+	color: #ffffff;
+	float: left;
 }
 
 .product__page__title {
