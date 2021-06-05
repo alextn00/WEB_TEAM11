@@ -766,6 +766,12 @@ label {
 	right: 10px;
 	bottom: 10px;
 }
+.star_rating{
+	margin-left: 5px;
+}
+.star_rating span.checked {
+	color: orange;
+}
 
 .product__item__text {
 	padding-top: 10px;
