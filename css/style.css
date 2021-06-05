@@ -778,6 +778,10 @@ label {
 	top: 10px;
 }
 
+.star_rating span {
+	color: black;
+}
+
 .star_rating span.checked {
 	color: white;
 }
@@ -1627,6 +1631,10 @@ label {
 	margin-bottom: 0;
 }
 
+.blog__details__item__text div {
+	text-align: center;
+}
+
 .blog__details__tags {
 	margin-bottom: 60px;
 }
@@ -1709,11 +1717,12 @@ label {
 .blog__details__comment__item__text span {
 	font-size: 14px;
 	color: #b7b7b7;
-	display: block;
+	margin-left: 15px;
 	margin-bottom: 10px;
 }
 
 .blog__details__comment__item__text h5 {
+	display: inline-block;
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 10px;
@@ -1837,6 +1846,33 @@ label {
 	margin-bottom: 0px;
 }
 
+.commment-star-rating {
+	display:flex;
+	flex-direction: row-reverse;
+	font-size:1.5em;
+	justify-content:space-around;
+	padding:0 .2em;
+	text-align:center;
+	width:5em;
+  }
+  
+  .commment-star-rating input {
+	display:none;
+  }
+  
+  .commment-star-rating label{
+	color:#ccc;
+	cursor:pointer;
+  }
+  
+  .community-star-rating :checked ~ label {
+	color:#e53637;
+  }
+  
+  .community-star-rating label:hover,
+  .community-star-rating label:hover ~ label {
+	color:#e53637;
+  }
 /*---------------------
   Login
 -----------------------*/
