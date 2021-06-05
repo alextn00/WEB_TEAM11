@@ -2502,3 +2502,56 @@ label {
 		padding: 18px 20px 20px;
 	}
 }
+
+.darkcontainer {
+	/* display: flex; */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.night {
+	background-color: white;
+	color: black;
+
+}
+
+.darklabel {
+	background-color: black;
+	display: flex;
+	height: 25px;
+	border-radius: 50px;
+	width: 80px;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	padding: 0 15px;
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+	border: 2px solid black;
+}
+.darklabel .fa-moon {
+	color: rgb(250, 250, 250);
+}
+.darklabel .fa-sun {
+	color: rgb(243, 188, 36);
+}
+.blob {
+	position: absolute;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background: rgb(169, 241, 243);
+	border-radius: 50px;
+	transition: .5s ease all;
+}
+.darkcheckbox {
+	opacity: 0;
+	position: absolute;
+}
+.darkcheckbox:checked + .darklabel .blob {
+	left: 0;
+}
+.darkcheckbox:checked + .darklabel {
+	color: black;
+}

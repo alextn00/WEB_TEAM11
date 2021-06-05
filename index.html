@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+        integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -49,8 +52,8 @@
                                 <li class="active"><a href="./index.html">Home</a></li>
                                 <li><a href="./categories.html">Games</a>
                                     <ul class="dropdown">
-                                        <li><a href="./populargames.html">Popular Games</a></li>
-                                        <li><a href="./newgames.html">New Games</a></li>
+                                        <li><a href="./games.html">Popular Games</a></li>
+                                        <li><a href="./games.html">New Games</a></li>
                                         <li><a href="./categories.html">Categories</a></li>
                                     </ul>
                                 </li>
@@ -61,10 +64,36 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-Flg-2">
+                <div class="col-lg-2">
                     <div class="header__right">
-                        <button class="dark_mode_btn">Dark</button>
-                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <div class="darkcontainer night-mode-available">
+                            <div class="night-mode-button">
+                                <input type="checkbox" class="darkcheckbox" id="night-mode">
+                                <label for="night-mode" class="darklabel">
+                                    <i class="fas fa-sun"></i>
+                                    <i class="fas fa-moon"></i>
+                                    <div class="blob"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            document.querySelector('.darkcheckbox').addEventListener('change', () => {
+                                var target = document.querySelectorAll('section');
+                                target.forEach(ele => {
+                                    ele.classList.toggle('night');
+                                    var target2 = document.querySelectorAll('div');
+                                    var target3 = document.querySelectorAll('div h1, div h2, div h3, div h4, div h5, div h6, div span, div a, div p, div li, div table');
+                                    for (i = 0, len = target3.length; i<len; i++){
+                                        target3[i].style.color = '#000';
+                                    }
+                                })
+                                // target2 = document.querySelectorAll('div');
+                                // target3 = document.querySelectorAll('div h1, div h2, div h3, div h4, div h5, div h6, div span, div a, div p, div li, div table');
+                                // for (i = 0, len = target3.length; i<len; i++){
+                                //     target3[i].style.color = '#fff';
+                                // }
+                            });
+                        </script>
                         <a href="./login.html"><span class="icon_profile"></span></a>
                     </div>
                 </div>
@@ -246,7 +275,8 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="btn__all">
-                                    <a href="./ranking.html" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                    <a href="./ranking.html" class="primary-btn">View All <span
+                                            class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -258,11 +288,13 @@
                                     <div class="product__item__text">
                                         <h5><a href="#">Game1</a></h5>
                                         <table class="rank_table">
-                                            <tr><th>Ranking</th>
+                                            <tr>
+                                                <th>Ranking</th>
                                                 <th>1</th>
                                                 <td>이름1</td>
                                             </tr>
-                                            <tr><th></th>
+                                            <tr>
+                                                <th></th>
                                                 <th>2</th>
                                                 <td>이름2</td>
                                             </tr>
@@ -282,11 +314,13 @@
                                     <div class="product__item__text">
                                         <h5><a href="#">Game2</a></h5>
                                         <table class="rank_table">
-                                            <tr><th>Ranking</th>
+                                            <tr>
+                                                <th>Ranking</th>
                                                 <th>1</th>
                                                 <td>이름1</td>
                                             </tr>
-                                            <tr><th></th>
+                                            <tr>
+                                                <th></th>
                                                 <th>2</th>
                                                 <td>이름2</td>
                                             </tr>
@@ -306,11 +340,13 @@
                                     <div class="product__item__text">
                                         <h5><a href="#">Game3</a></h5>
                                         <table class="rank_table">
-                                            <tr><th>Ranking</th>
+                                            <tr>
+                                                <th>Ranking</th>
                                                 <th>1</th>
                                                 <td>이름1</td>
                                             </tr>
-                                            <tr><th></th>
+                                            <tr>
+                                                <th></th>
                                                 <th>2</th>
                                                 <td>이름2</td>
                                             </tr>
@@ -330,11 +366,13 @@
                                     <div class="product__item__text">
                                         <h5><a href="#">Game4</a></h5>
                                         <table class="rank_table">
-                                            <tr><th>Ranking</th>
+                                            <tr>
+                                                <th>Ranking</th>
                                                 <th>1</th>
                                                 <td>이름1</td>
                                             </tr>
-                                            <tr><th></th>
+                                            <tr>
+                                                <th></th>
                                                 <th>2</th>
                                                 <td>이름2</td>
                                             </tr>
@@ -354,11 +392,13 @@
                                     <div class="product__item__text">
                                         <h5><a href="#">Game5</a></h5>
                                         <table class="rank_table">
-                                            <tr><th>Ranking</th>
+                                            <tr>
+                                                <th>Ranking</th>
                                                 <th>1</th>
                                                 <td>이름1</td>
                                             </tr>
-                                            <tr><th></th>
+                                            <tr>
+                                                <th></th>
                                                 <th>2</th>
                                                 <td>이름2</td>
                                             </tr>
@@ -378,11 +418,13 @@
                                     <div class="product__item__text">
                                         <h5><a href="#">Game6</a></h5>
                                         <table class="rank_table">
-                                            <tr><th>Ranking</th>
+                                            <tr>
+                                                <th>Ranking</th>
                                                 <th>1</th>
                                                 <td>이름1</td>
                                             </tr>
-                                            <tr><th></th>
+                                            <tr>
+                                                <th></th>
                                                 <th>2</th>
                                                 <td>이름2</td>
                                             </tr>
@@ -409,7 +451,8 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="btn__all">
-                                        <a href="./newgames.html" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                        <a href="./newgames.html" class="primary-btn">View All <span
+                                                class="arrow_right"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -455,7 +498,8 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="btn__all">
-                                        <a href="./community.html" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                        <a href="./community.html" class="primary-btn">View All <span
+                                                class="arrow_right"></span></a>
                                     </div>
                                 </div>
                             </div>
