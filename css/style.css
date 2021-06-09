@@ -1052,6 +1052,29 @@ label {
 	text-align: end;
 }
 
+#ranking th, td {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#ranking td:nth-of-type(2) {
+	padding-left: 5%;
+	text-align: left;
+}
+#ranking th:first-of-type {
+	width: 5%;
+}
+#ranking th:nth-of-type(2) {
+	width: 40%;
+}
+#ranking th:nth-of-type(3) {
+	width: 25%;
+}
+#ranking th:last-of-type {
+	width: 25%;
+}
+
+
 /*---------------------
   Anime Details
 -----------------------*/
@@ -1523,6 +1546,81 @@ label {
 	line-height: 34px;
 }
 
+#notice th, td {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#notice td:nth-of-type(2) {
+	padding-left: 20px;
+	text-align: left;
+}
+#notice th:first-of-type {
+	width: 6%;
+}
+#notice th:nth-of-type(2) {
+	width: 60%;
+}
+#notice th:nth-of-type(3) {
+	width: 13%;
+}
+#notice th:nth-of-type(4) {
+	width: 14%;
+}
+#notice th:last-of-type {
+	width: 7%;
+}
+
+#board th, td {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#board td:nth-of-type(2) {
+	padding-left: 20px;
+	text-align: left;
+}
+#board th:first-of-type {
+	width: 6%;
+}
+#board th:nth-of-type(2) {
+	width: 60%;
+}
+#board th:nth-of-type(3) {
+	width: 13%;
+}
+#board th:nth-of-type(4) {
+	width: 14%;
+}
+#board th:last-of-type {
+	width: 7%;
+}
+
+#game th, td {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#game td:nth-of-type(2) {
+	padding-left: 20px;
+	text-align: left;
+}
+#game th:first-of-type {
+	width: 6%;
+}
+#game th:nth-of-type(2) {
+	width: 60%;
+}
+#game th:nth-of-type(3) {
+	width: 13%;
+}
+#game th:nth-of-type(4) {
+	width: 14%;
+}
+#game th:last-of-type {
+	width: 7%;
+}
+
 /*---------------------
   Blog Details
 -----------------------*/
@@ -1846,7 +1944,7 @@ label {
 	margin-bottom: 0px;
 }
 
-.commment-star-rating {
+.comment-star-rating {
 	display:flex;
 	flex-direction: row-reverse;
 	font-size:1.5em;
@@ -1854,23 +1952,27 @@ label {
 	padding:0 .2em;
 	text-align:center;
 	width:5em;
+	background-color: #fff;
+	border-radius: 2px;
+	height: 35px;
+	margin-top: 5px;
   }
   
-  .commment-star-rating input {
+  .comment-star-rating input {
 	display:none;
   }
   
-  .commment-star-rating label{
+  .comment-star-rating label{
 	color:#ccc;
 	cursor:pointer;
   }
   
-  .community-star-rating :checked ~ label {
+  .comment-star-rating :checked ~ label {
 	color:#e53637;
   }
   
-  .community-star-rating label:hover,
-  .community-star-rating label:hover ~ label {
+  .comment-star-rating label:hover,
+  .comment-star-rating label:hover ~ label {
 	color:#e53637;
   }
 /*---------------------
