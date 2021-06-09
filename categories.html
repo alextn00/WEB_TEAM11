@@ -80,14 +80,11 @@
                         <script>
                             document.querySelector('.darkcheckbox').addEventListener('change', function() {
                                 var theme = document.querySelector('#theme-link');
-                                var body = document.querySelector('body');
                                 if (theme.getAttribute("href") == "css/style-light.css"){
                                     theme.setAttribute("href", "css/style-dark.css");
-                                    body.classList.toggle('light-mode');
                                 }
                                 else if (theme.getAttribute("href") == "css/style-dark.css") {
                                     theme.setAttribute("href", "css/style-light.css");
-                                    body.classList.toggle('light-mode');
                                 }
                             });
                         </script>
