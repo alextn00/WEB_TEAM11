@@ -1049,6 +1049,36 @@ label {
 	font-size: 15px;
 }
 
+.ranking-detail table {
+	color: rgb(219, 219, 219);
+	border: 1px 0px solid #ffffff;
+	margin-bottom: 35px;
+}
+
+.ranking-detail table th {
+	color: #ffffff;
+	border: 2px 0px 1px solid #ffffff;
+}
+
+.ranking-detail table tbody tr {
+	border: 0px 0px 1px solid #ffffff;
+}
+
+.ranking-detail tbody tr:nth-of-type(odd){
+	background-color:rgba(255,255,255,.08)
+}
+
+.ranking-detail table tr:hover {
+	color: #ffffff;
+	background-color: rgb(255, 255, 255, 0.15);
+}
+
+.ranking-detail table thead tr:hover {
+	color: #ffffff;
+	background-color: #0b0c2a;
+}
+
+
 .rank_table {
 	background-color: none; 
 	color: white; 
@@ -1554,6 +1584,31 @@ label {
 .blog__item__text h4 a {
 	color: #ffffff;
 	line-height: 34px;
+}
+
+.community table {
+	color: rgb(219, 219, 219);
+	border: 1px 0px solid #ffffff;
+	margin-bottom: 35px;
+}
+
+.community table th {
+	color: #ffffff;
+	border: 2px 0px 1px solid #ffffff;
+}
+
+.community table tbody tr {
+	border: 0px 0px 1px solid #ffffff;
+}
+
+.community table tr:hover {
+	color: #ffffff;
+	background-color: rgb(255, 255, 255, 0.15);
+}
+
+.community table thead tr:hover {
+	color: #ffffff;
+	background-color: #0b0c2a;
 }
 
 #notice th, td {

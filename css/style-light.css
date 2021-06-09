@@ -1049,6 +1049,36 @@ label {
 	font-size: 15px;
 }
 
+
+.ranking-detail table {
+	color: rgb(87, 87, 87);
+	border: 1px 0px solid #cacaca;
+	margin-bottom: 35px;
+}
+
+.ranking-detail table th {
+	color: #000;
+	border: 2px 0px 1px solid #cacaca;
+}
+
+.ranking-detail table tbody tr {
+	border: 0px 0px 1px solid #cacaca;
+}
+
+.ranking-detail tbody tr:nth-of-type(odd){
+	background-color:rgba(0,0,0,.03)
+}
+
+.ranking-detail table tr:hover {
+	color: #000;
+	background-color: rgb(246, 246, 246);
+}
+
+.ranking-detail table thead tr:hover {
+	color: #000;
+	background-color: #f9fafc;
+}
+
 .rank_table {
 	background-color: none; 
 	color: black; 
@@ -1557,8 +1587,9 @@ label {
 }
 
 .community table {
-	color: rgb(54, 54, 54);
+	color: rgb(87, 87, 87);
 	border: 1px 0px solid #cacaca;
+	margin-bottom: 35px;
 }
 
 .community table th {
@@ -1572,7 +1603,12 @@ label {
 
 .community table tr:hover {
 	color: #000;
-	background-color: #EEE;
+	background-color: rgb(246, 246, 246);
+}
+
+.community table thead tr:hover {
+	color: #000;
+	background-color: #f9fafc;
 }
 
 #notice th, td {
@@ -1784,8 +1820,8 @@ label {
 }
 /* ------------------------------------------------------------------------------------ 이건? */
 .blog__details__btns {
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 20px 0 15px;
 	margin-bottom: 65px;
 }
@@ -1812,7 +1848,7 @@ label {
 }
 
 .blog__details__comment {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	padding-bottom: 30px;
 }
 
