@@ -1556,6 +1556,25 @@ label {
 	line-height: 34px;
 }
 
+.community table {
+	color: rgb(54, 54, 54);
+	border: 1px 0px solid #cacaca;
+}
+
+.community table th {
+	color: #000;
+	border: 2px 0px 1px solid #cacaca;
+}
+
+.community table tbody tr {
+	border: 0px 0px 1px solid #cacaca;
+}
+
+.community table tr:hover {
+	color: #000;
+	background-color: #EEE;
+}
+
 #notice th, td {
 	text-align: center;
 	padding-left: 10px;
@@ -2670,7 +2689,7 @@ label {
 	cursor: pointer;
 }
 .darklabel .fa-moon {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 .darklabel .fa-sun {
 	color: rgb(243, 188, 36);
