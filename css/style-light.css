@@ -348,7 +348,7 @@ label {
 -----------------------*/
 
 .header {
-	background: #eff2f7;
+	background: #070720;
 }
 
 .header__logo {
@@ -376,7 +376,7 @@ label {
 }
 
 .header__menu ul li:hover a {
-	color: #000000;
+	color: #ffffff;
 }
 
 .header__menu ul li:hover .dropdown {
@@ -398,7 +398,7 @@ label {
 	left: 0;
 	top: 82px;
 	width: 150px;
-	background: #0b0c2a;
+	background: #ffffff;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -416,14 +416,14 @@ label {
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
-	color: #EEEEEE;
+	color: #111111;
 	font-weight: 500;
 	padding: 5px 20px;
 }
 
 .header__menu ul li a {
 	font-size: 15px;
-	color: #585874;
+	color: #b7b7b7;
 	display: block;
 	font-weight: 700;
 	-webkit-transition: all, 0.5s;
@@ -451,7 +451,7 @@ label {
 .header__right a {
 	display: inline-block;
 	font-size: 18px;
-	color: #000000;
+	color: #ffffff;
 	margin-right: 30px;
 }
 
@@ -460,7 +460,7 @@ label {
 	padding-left: 6px;
 	padding-right: 6px;
 	padding-top: 3px;
-	background-color: rgb(216, 216, 219);
+	background-color: rgb(44, 44, 71);
 	border-radius: 50%;
 }
 
@@ -2186,8 +2186,6 @@ label {
 	line-height:30px;
 	font-size:14px;
 	text-align:center;
-	-webkit-box-shadow:0 2px 4px rgba(0,0,0,.4);
-	box-shadow:0 2px 4px rgba(0,0,0,.4)
 }
 
 .contact-directory-box .contact-avatar span img, .profile-photo .avatar-photo, .profile-photo .edit-avatar{
@@ -2660,7 +2658,6 @@ label {
 }
 
 .darklabel {
-	background-color: white;
 	display: flex;
 	height: 25px;
 	border-radius: 50px;
@@ -2671,7 +2668,6 @@ label {
 	padding: 0 15px;
 	transition: all .5s ease-in-out;
 	cursor: pointer;
-	border: 2px solid white;
 }
 .darklabel .fa-moon {
 	color: rgb(0, 0, 0);
