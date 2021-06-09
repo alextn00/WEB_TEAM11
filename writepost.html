@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style-light.css" type="text/css" id="theme-link">
 </head>
 
 <body>
@@ -63,8 +63,27 @@
                 </div>
                 <div class="col-Flg-2">
                     <div class="header__right">
-                        <button class="dark_mode_btn">Dark</button>
-                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <div class="darkcontainer night-mode-available">
+                            <div class="night-mode-button">
+                                <input type="checkbox" class="darkcheckbox" id="night-mode">
+                                <label for="night-mode" class="darklabel">
+                                    <i class="fas fa-sun"></i>
+                                    <i class="fas fa-moon"></i>
+                                    <div class="blob"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <script>
+                            document.querySelector('.darkcheckbox').addEventListener('change', function() {
+                                var theme = document.querySelector('#theme-link');
+                                if (theme.getAttribute("href") == "css/style-light.css"){
+                                    theme.setAttribute("href", "css/style-dark.css");
+                                }
+                                else if (theme.getAttribute("href") == "css/style-dark.css") {
+                                    theme.setAttribute("href", "css/style-light.css")
+                                }
+                            });
+                        </script>
                         <a href="./login.html"><span class="icon_profile"></span></a>
                     </div>
                 </div>
