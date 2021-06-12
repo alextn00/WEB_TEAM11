@@ -815,7 +815,7 @@ label {
 	display: inline-block;
 }
 
-.product__item__text h5 {
+.product__item__text h5 a {
 	color: #ffffff;
 	font-weight: 700;
 	line-height: 26px;
@@ -1098,8 +1098,7 @@ label {
 	padding-right: 10px;
 }
 #ranking td:nth-of-type(2) {
-	padding-left: 5%;
-	text-align: left;
+	text-align: center;
 }
 #ranking th:first-of-type {
 	width: 5%;
